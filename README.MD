@@ -1,15 +1,11 @@
 ## 基于知识图谱的医疗诊断知识问答系统
 
-![avatar](./img/1.png)
+系列视频持续更新中……，后期代码也将一并上传
 
-视频可在B站、西瓜视频搜索 <font color=#F08080 size=5 face="黑体">`每天都要机器学习`</font>，在知乎搜索 <font color=#F08080 size=5 face="黑体">`王乐`</font> 观看；相关系列文章可在公众号搜索 <font color=#F08080 size=5 face="黑体">`每天都要机器学习`</font> 阅读。
+[点击这里观看视频](https://www.bilibili.com/video/BV1ev4y1o7zj/)
 
-本项目系列视频规划如下，视频会陆续录制上传至上述各平台，代码会陆续上传于此仓库。
+本项目系列视频大纲如下，最后可能会有细微差别，影响不大
 
-![avatar](./img/2.png)
+<img src="./img/4.png" alt="imang" style="zoom:30%;" />
 
-![avatar](./img/3.png)
-
-![avatar](./img/4.png)
-
-![avatar](./img/5.png)
+<img src="./img/5.png" alt="imang" style="zoom:30%;" />
