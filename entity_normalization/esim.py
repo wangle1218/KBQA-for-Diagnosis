@@ -25,7 +25,7 @@ class ESIM(object):
             return keras.layers.Embedding(
                 input_dim = input_dim,
                 output_dim = output_dim,
-                trainable = False,
+                trainable = True,
                 name = name,
                 weights = weights,
                 **kwargs)
