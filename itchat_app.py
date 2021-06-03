@@ -6,7 +6,7 @@ import itchat
 from itchat.content import *
 
 from modules import gossip_robot,medical_robot,classifier
-from modules import dump_user_dialogue_context,load_user_dialogue_context
+from utils.json_utils import dump_user_dialogue_context,load_user_dialogue_context
 
 """
 问答流程：
