@@ -32,6 +32,8 @@
 
 为能最简化使用该系统，不需要繁杂的部署各种七七八八的东西，当前版本使用的itchat将问答功能集成到微信做演示，这需要你的微信能登入网页微信才能使用itchat；另外对话上下文并没有使用Redis之类的数据库实时存储到内存里，而是使用json文件的存、读进行的。
 
+能够回答哪些疾病相关知识，可以参考[这个疾病实体字典里的疾病](https://github.com/wangle1218/KBQA-for-Diagnosis/blob/main/knowledge_extraction/bilstm_crf/checkpoint/diseases.json)；另外目前并没有实现实体链指的功能（因为没有相关的开源数据集），因此现在只支持“疾病”实体的完整、准确输入的解析。
+
 <img src="./img/KBQA效果.gif" alt="imang" style="zoom:60%;" />
 
 [完整演示视频](https://www.bilibili.com/video/BV1Np4y1471Z/)
@@ -47,6 +49,11 @@
 链接：https://pan.baidu.com/s/1HYB3RwfDs_JcreuEYH51Tw 
 提取码：b3cd 
 复制这段内容后打开百度网盘手机App，操作更方便哦
+
+**下载roberta预训练模型**
+[从哈工大官方github下载，点这里](https://github.com/ymcui/Chinese-BERT-wwm#%E4%B8%AD%E6%96%87%E6%A8%A1%E5%9E%8B%E4%B8%8B%E8%BD%BD)，下载RBT3,Chinese 版本（貌似是这个，反正是一个三层的简单版）；
+
+下载好后解压放在项目路径下，然后在bert意图识别相关的代码里改一下预训练模型的路径。
 
 1. **启动neo4j**
 
