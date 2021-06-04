@@ -34,11 +34,11 @@
 
 能够回答哪些疾病相关知识，可以参考[这个疾病实体字典里的疾病](https://github.com/wangle1218/KBQA-for-Diagnosis/blob/main/knowledge_extraction/bilstm_crf/checkpoint/diseases.json)；另外目前并没有实现实体链指的功能（因为没有相关的开源数据集），因此现在只支持“疾病”实体的完整、准确输入的解析。
 
-<img src="./img/微信图片_20210604135937.jpg" alt="imang" style="zoom:80%;" />
+<img src="./img/微信图片_20210604135937.jpg" alt="imang" style="zoom:50%;" />
 
-<img src="./img/微信图片_20210604135949.jpg" alt="imang" style="zoom:80%;" />
+<img src="./img/微信图片_20210604135949.jpg" alt="imang" style="zoom:50%;" />
 
-<img src="./img/微信图片_20210604135943.jpg" alt="imang" style="zoom:80%;" />
+<img src="./img/微信图片_20210604135943.jpg" alt="imang" style="zoom:50%;" />
 
 [完整演示视频](https://www.bilibili.com/video/BV1Np4y1471Z/)
 
