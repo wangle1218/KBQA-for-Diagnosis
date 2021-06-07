@@ -14,7 +14,7 @@ def dump_user_dialogue_context(user,data):
 def load_user_dialogue_context(user):
     path = os.path.join(LOGS_DIR,'{}.json'.format(str(user)))
     if not os.path.exists(path):
-        return {"choice_answer":"hi，机器人小智很高心为您服务"}
+        return {"choice_answer":"hi，机器人小智很高心为您服务","slot_values":None}
     else:
         with open(path,'r',encoding='utf8') as f:
             data = f.read()
