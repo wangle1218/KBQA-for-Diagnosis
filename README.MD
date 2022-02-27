@@ -9,7 +9,7 @@
 - 校招及初级社招简历中的算法项目的润色指导
 - 后续的NLP基础课程的一切答疑（课程目录大纲在最后）
 
-<img src="./img/zsxq.jpg" alt="imang" style="zoom:20%;" />
+<img src="./img/zsxq.jpg" alt="imang" width=250 style="zoom:20%;" />
 
 ### 环境
 
